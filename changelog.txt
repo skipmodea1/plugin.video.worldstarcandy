@@ -1,3 +1,7 @@
+v1.0.3-SNAPSHOT (2018-02-24)
+- removing non-ascii characters in title in parameters to prevent UnicodeDecodeError: 'ascii' codec can't decode ...
+The error occured when doing urllib.parse.parse_qs of the parameters
+
 v1.0.2 (2018-01-21)
 - removed looking for video dialogue
 - addon now works in kode python 2 and should also work in python 3 (!!) once all dependencies work in python 3.
